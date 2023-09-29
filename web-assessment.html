@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Web Assessment</title>
+</head>
+<body>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <!-- Upper Left Section -->
+        <section>
+            <h2>Oussa Spivey</h2>
+            <p>ACS 1700 Assessment</p>
+        </section>
+        
+        <!-- Upper Right Section -->
+        <section>
+            <label for="width">Width:</label>
+            <input type="number" id="width"><br>
+            
+            <label for="height">Height:</label>
+            <input type="number" id="height"><br>
+            
+            <label for="color">Color:</label>
+            <input type="color" id="color">
+        </section>
+        
+        <!-- Lower Left Section -->
+        <section>
+            <label for="dynamic-width">Width</label>
+            <p><span id="dynamic-width"></span></p>
+            <label for="dynamic-height">Height</label>
+            <p><span id="dynamic-height"></span></p>
+            <label for="dynamic-color">Color</label>
+            <p><span id="dynamic-color"></span></p>
+        </section>
+        
+        <!-- Lower Right Section -->
+        <section>
+            <h2>Color</h2>
+            <div id="box" style="width: 100px; height: 100px; background-color: #000;"></div>
+        </section>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
